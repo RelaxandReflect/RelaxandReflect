@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <h1 class="logo" href="#welcome">Relax and Reflect</h1>
+        <button class="idee-button" onclick="goToPage('selection')">Start</button>
+    </div>
+
+    <!-- Startseite -->
+    <div id="welcome" class="page">
+        <div class="information-box">
+            <details>
+                <summary class="summary-text">Infos zum Thema Stress</summary>
+                <p style="font-size: 15px;">Wer leidet unter Stress? Laut einer Studie der Techniker Krankenkasse leidet rund ein Viertel der gesamten Deutschen Bevölkerung unter Stress, darunter fallen auch viele Schüler und Lehrer. Laut einer Studie sind Frauen häufiger betroffen
+                    als Männer. Auch bei Kindern und Jugendlichen nimmt das Thema Stress deutlich zu. Laut einer aktuellen Befragung fühlen sich drei viertel der befragten Jugendlichen, also ca. 72% mindestens einmal pro Woche gestresst. Jeder vierte
+                    Schüler, ca. 28% fühlt sich mehr als drei Tage in der Woche gestresst. Darunter empfinden Mädchen ihren Schulalltag deutlich stressiger (79%), als Jungen (66%). Was ist überhaupt Stress? Unter Stress versteht die Psychologie die starke
+                    Beanspruchung eines Organismus durch innere als auch äußere Reize. Dabei unterscheidet man unter psychischen oder physischem Stress. Psychischer Stress: Bei physischen Stress kommen Emotionen wie Wut und Angst in Stresssituationen
+                    häufiger vor. Wenn der Stress länger anhält, leidet die psychische Gesundheit, da sich die Menschen oft weiterhin hilflos und überfordert fühlen. Dies kann zu Symptomen wie Depressionen, Angstzuständen und Erschöpfung führen oder bestehende
+                    psychische Erkrankungen verschlimmern. Psychischer Stress kann durch viele Dinge ausgelöst werden, wie z.B. Überforderung, Unterforderung, Ziele, Beruf, Probleme mit Arbeitskollegen oder Mitschülern, Leistungsdruck schulisch/beruflich,
+                    Verlust eines geliebten Menschen und noch vielen mehr…. Physischer Stress: Körperlicher Stress entsteht, wenn unser Organismus dauerhaft mit körperlichen Belastungen überfordert ist. Dazu zählen beispielsweise körperliche Anstrengung,
+                    ständiger Lärm, chronische Schmerzen und übermäßige körperliche Aktivität. Auch Schlafmangel, sowie Chemikalien in Alkohol, Nikotin, Pillen und Junkfood können den Körper überlasten. Physischer Stress kann auch durch z.B. Wärme, Kälte,
+                    Körperlicher Stress oder Mechanische Einflüsse ausgelöst werden.
+
+                    <br />
+                    <br /> Welche Symptome kann Stress haben? Stress kann sich ganz unterschiedlich auf Menschen auswirken.
+                    <br /><br /> • Körperlich: z. B. Zittern, beschleunigter Herzschlag, Schweissausbrüche, Verspannungen (oft Nacken und Schultern), verminderte Leistungsfähigkeit, Erschöpfung, Kopf- und Rückenschmerzen, Schlafstörungen, Magen-Darm-Beschwerden
+                    (Verstopfung, Durchfall)
+                    <br /><br /> • Psychisch und emotional: z. B. Nervosität, innere Unruhe, Reizbarkeit , Panik, Angst, Wut, Freudlosigkeit, Unzufriedenheit, Antriebslosigkeit, Hoffnungslosigkeit, Resignation(Aufgeben)<br /><br /> • Geistig (kognitiv):
+                    z.B. verminderte Konzentrationsfähigkeit, verlangsamtes Denken, verringerte Reaktionsfähigkeit, Vergesslichkeit
+                    <br /><br />• Verhalten (Behaviorismus): z. B. heftige Reaktionen, verändertes Essverhalten (zu viel oder zu wenig essen), erhöhter Konsum von Genussmitteln wie Alkohol, Kaffee, Nikotin
+                </p>
+            </details>
+
+        </div>
+        <div class="information-box">
+            <details>
+                <summary class="summary-text">Unsere Idee</summary>
+                <p style="font-size: 15px;">Wir wollen Schüler mit ihrer Mentalen Gesundheit unterstützen. Durch einen QR-Code haben sie die Möglichkeit ihren Stress zu bewältigen, dies geschieht durch Übungen oder Reflexionen, auf die die Schüler durch den QR-Code zugriff haben.
+                    Wichtig für uns war, dass die Daten nicht gespeichert werden und somit anonym bleiben. Wir wollen durch unser Projekt etwas langfristig wertvolles für die Schule schaffen und somit die Schüler unterstützen
+                </p>
+            </details>
+
+
+
+        </div>
+        <button class="start-button" onclick="goToPage('selection')">Starte jetzt!</button>
+    </div>
+
+
+
+
+
+    <!-- Reflex oder Reflect Auswahl -->
+
+    <div id="selection" class="page" style="display: none;">
+        <div class="container">
+            <button class="select-button" onclick="goToPage('relax-selection')">Relax</button>
+            <button class="select-button" onclick="goToPage('reflect1')">Reflect</button>
+
+        </div>
+
+    </div>
+
+
+    <div id="relax-selection" class="page" style="display: none;">
+        <div class="container">
+            <button class="select-button" onclick="goToPage('akut1')">Meinen akuten Stress bewältigen</button>
+            <button class="select-button" onclick="goToPage('long1')">Mein Stress langfristig reduzieren</button>
+
+        </div>
+    </div>
+
+    <!--AKUT-->
+
+    <div id="akut1" class="page" style="display: none;">
+        <div class="div-text">
+
+            <p>Atme tief für 4 Sekukunden ein und für 6 aus achte dabei darauf, dass du in deinen Bauch aus- atmest spüre beim Atmen wie die Luft in deinen Körper strömt und wieder entflieht</p>
+        </div>
+
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('relax-selection')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('akut2')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="akut2" class="page" style="display: none;">
+        <div class="div-text">
+
+            <p>Stelle dich gerade und aufrecht hin nimm jeden Teil deines Körpers wahr, wenn du dich aufrichtest und bleibe in dieser Position 30 sekunden stehen lenke dich ab</p>
+        </div>
+
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('akut2')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('akut3')">Weiter</button>
+        </div>
+    </div>
+
+
+    <div id="akut3" class="page" style="display: none;">
+        <div class="div-text">
+
+            <p>Mache dir kopfhörer rein und höre ein Lied, weldes dich entspannt</p>
+        </div>
+
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('akut2')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('akut4')">Weiter</button>
+        </div>
+    </div>
+
+
+    <div id="akut4" class="page" style="display: none;">
+        <div class="div-text">
+
+            <p>zähle im Kopf oder leise vor dich hin. Zwischen jeder Zahl nimmst du bewusst und ruhig einen Atemzug</p>
+        </div>
+
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('akut3')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('akut5')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="akut5" class="page" style="display: none;">
+        <div class="div-text">
+
+            <p>Suche dir 10 Dinge im Raum. Jeden Gegenstand beschreibst du dir selbs genau in Kopf z. B.: Farbe, wo er steht, wozuer da ist...</p>
+        </div>
+
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('akut4')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('welcome')">Weiter</button>
+        </div>
+    </div>
+
+
+
+    <!--LONGTERM-->
+
+
+    <div id="long1" class="page" style="display: none;">
+        <div class="div-text">
+
+            <p>Spazieren gehen gerade während einer Stressigen Lebensphase kann helfen, achte dabei bewusst auf deine Bewegungen und deine Umwelt</p>
+        </div>
+
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('relax-selection')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('long2')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="long2" class="page" style="display: none;">
+        <div class="div-text">
+
+            <p>Yoga hilf dabei deinen Körper und deinen Geist in Einklang zu bringen
+                </br>
+                https://www.youtube.com/watch?v=hQ8vRYGRiec
+                </br>
+                https://www.youtube.com/watch?v=AtQIr3QX4pY</p>
+        </div>
+
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('long1')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('long3')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="long3" class="page" style="display: none;">
+        <div class="div-text">
+
+            <p>Auch sich selbst bewusst zu sein hilft den Stress zu vermeiden und auf seine Fähigkeiten zu vertrauen
+                </br>
+                https://www.youtube.com/watch?v=zG0FZz05KB
+                </br> https://www.youtube.com/watch?v=6dlm64za5Uw</p>
+        </div>
+
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('long2')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('long4')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="long4" class="page" style="display: none;">
+        <div class="div-text">
+
+            <p>auch kannst du dich selbst fragen, wo du dich gut wahrnimmst z. B. beim Sport oder Tagebuch schreiben</p>
+        </div>
+
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('long3')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('long5')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="long5" class="page" style="display: none;">
+        <div class="div-text">
+
+            <p>mache dich Locker, höre dein Lieblingslied, wenn du willst kannst du dich auch gerne dazu bewegen oder tanzen</p>
+        </div>
+
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('long4')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('long6')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="long6" class="page" style="display: none;">
+        <div class="div-text">
+
+            <p class="text-p">Um deiner stressigen Welt auch mal zu entkommen helfen Bücher, Hörspiele oder auch mal ein Film- lass dich in eine andere Welt gleiten</p>
+        </div>
+
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('long5')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('welcome')">Weiter</button>
+        </div>
+    </div>
+
+
+
+
+    <!--REFLECT-->
+
+    <div id="reflect1" class="page" style="display: none;">
+        <div class="div-text">
+
+            <p class="text-p">Mithilfe der weiteren Sätze kannst du dich selbst zum Thema Stress reflektieren. Du kannst diese Sätze für dich ehrlich beantworten und sollst dich für nichts schämen. Es gibt immer andere Menschen, die sich so fühlen, wie du, du bist nicht
+                alleine. Es gibt zu dieser Reflexion keine Auswertung, da es eine reine selbst-Reflexion ist ohne Bewertung. Die Absicht der Reflexion ist es nicht dich unter Druck zu setzen, sondern dich zu unterstützen. Wenn du soweit bist, darfst du
+                beginnen.</p>
+        </div>
+
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('welcome')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect2')">Weiter</button>
+        </div>
+    </div>
+
+
+
+    <div id="reflect2" class="page" style="display: none;">
+        <div class="div-text">
+
+            <p class="text-p">Ich weiß, wie ich mich ablenken und beruhigen kann, wenn ich gestresst bin.</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect1')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect3')">Weiter</button>
+        </div>
+    </div>
+
+
+    <div id="reflect3" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Mir ist bewusst, welche Ursachen mein Stress hat.</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect2')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect4')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="reflect4" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">In der Schule habe ich die Möglichkeit, mich abzulenken.</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect3')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect5')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="reflect5" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Es stresst mich, vor einer Gruppe von Menschen zu sprechen. (z.B. bei einer Präsentation)</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect4')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect6')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="reflect6" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Wenn ich gestresst bin, bekomme ich körperliche Symptome. (Atemknappheit,zittern, Schwitzen, Verkrampfung)</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect5')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect7')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="reflect7" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Ich habe in der Schule mindestens eine Bezugsperson, die mich unterstützen kann, wenn ich es benötige.</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect6')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect8')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="reflect8" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Ich werde schnell unruhig, wenn ich Fehler mache.</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect7')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect9')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="reflect9" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Ich stresse mich grundlos.</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect8')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect10')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="reflect10" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Mir ist es unangenehm, wenn andere Menschen mitbekommen, dass ich gestresst bin.</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect9')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect11')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="reflect11" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Im Alltag fühle ich mich oft überfordert.</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect10')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect12')">Weiter</button>
+        </div>
+    </div>
+
+
+    <div id="reflect12" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Ich bin vor einer Situation/Aktivität gestresst, obwohl ich weiß, dass ich in der Lage bin, die Sache gut zu meistern.</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect11')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect13')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="reflect13" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Ich bin gestresst wegen meinen Mitmenschen.</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect12')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect14')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="reflect14" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Mein Freundeskreis macht mich runter, anstatt mich zu motivieren.</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect13')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect15')">Weiter</button>
+        </div>
+    </div>
+
+
+    <div id="reflect20" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Mithilfe von Musik, Sport oder Übungen kann ich verbessert mit Stress umgehen.</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect19')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect21')">Weiter</button>
+        </div>
+    </div>
+
+
+    <div id="reflect15" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Meine Familie ignoriert meine Signale, anstatt mir zu helfen.</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect14')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect16')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="reflect16" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Ich verbringe meine Freizeit mit Menschen, die mir im Leben weiterhelfen und mich glücklich machen.</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect15')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect17')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="reflect17" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Draußen in der Natur kann ich mich gut beruhigen.</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect16')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect18')">Weiter</button>
+        </div>
+    </div>
+
+
+    <div id="reflect18" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Tagsüber bin ich viel seltener draußen an der frischen Luft, als ich sein sollte.</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect17')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect19')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="reflect19" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Ich achte nicht besonders auf meine körperliche Gesundheit. (Konsum von Alkohol, Zigaretten, ungesunde Ernährung und weitere Drogen)</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect18')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect20')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="reflect20" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Ich bin mit meiner Verhaltensweise gegenüber meiner Gesundheit zufrieden.
+            </p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect19')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('reflect21')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="reflect21" class="page" style="display: none;">
+        <div class="div-text">
+            <p class="text-p">Mithilfe von Musik, Sport oder Übungen kann ich verbessert mit Stress umgehen.</p>
+        </div>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">Trifft voll und ganz zu!</label>
+                <div class="check"></div>
+            </li>
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option">Trift eher zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift eher nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option">Trift nicht zu</label>
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom-container">
+            <button class="navigation-button" onclick="goToPage('reflect20')">Zurück</button>
+            <button class="navigation-button" onclick="goToPage('welcome')">Weiter</button>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div id="slider" class="page" style="display: none;">
+        <h1>Frage 2</h1>
+        <p>Wie würden Sie Ihren Tag auf einer Skala von 1 bis 10 bewerten?</p>
+        <input type="range" min="1" max="10" value="5" class="slider">
+        <div class="page-bottom">
+            <button onclick="goToPage('question')">Zurück</button>
+            <button onclick="goToPage('multiple-choice')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="multiple-choice" class="page" style="display: none;">
+        <h1>Frage 3</h1>
+        <p>Welches ist Ihre Lieblingsfarbe?</p>
+        <div>
+            <input type="radio" id="color1" name="color" value="Blau">
+            <label for="color1">Blau</label><br>
+            <input type="radio" id="color2" name="color" value="Rot">
+            <label for="color2">Rot</label><br>
+            <input type="radio" id="color3" name="color" value="Grün">
+            <label for="color3">Grün</label><br>
+        </div>
+        <div class="page-bottom">
+            <button onclick="goToPage('slider')">Zurück</button>
+            <button onclick="goToPage('breathing-exercise')">Weiter</button>
+        </div>
+    </div>
+
+    <div id="breathing-exercise" class="page" style="display: none;">
+        <h1>Atemübung</h1>
+        <div id="rectangle">
+            <div id="circle"></div>
+            <div class="instruction" id="top-instruction">Halten</div>
+            <div class="instruction" id="right-instruction">Ausatmen</div>
+            <div class="instruction" id="bottom-instruction">Halten</div>
+            <div class="instruction" id="left-instruction">Einatmen</div>
+        </div>
+        <div class="page-bottom">
+            <button onclick="goToPage('multiple-choice')">Zurück</button>
+            <button onclick="goToPage('end')">Weiter</button>
+        </div>
+    </div>
+
+
+    <div id="end" class="page" style="display: none;">
+        <h1>Ende</h1>
+        <div class="page-bottom">
+            <button onclick="goToPage('slider')">Zurück</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
