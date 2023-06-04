@@ -2,6 +2,7 @@
 
 body {
     font-size: 25px;
+    background-color: antiquewhite;
 }
 
 .header {
@@ -16,8 +17,9 @@ body {
     flex-direction: row;
     justify-content: space-around;
     border-radius: 15px;
-    border: solid;
+    border: solid 5px;
     margin-bottom: 15%;
+    box-shadow: 0px 15px 10px -15px #111;
 }
 
 .div-text {
@@ -29,10 +31,12 @@ body {
     font-size: 40px;
     padding: 20px;
     border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 15px 10px -15px #111;
 }
 
 .text-p {
-    font-size: 50px;
+    font-size: 50px !important;
     font-family: optmia;
     font-weight: 500;
 }
@@ -44,7 +48,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color: #fff;
+    background-color: antiquewhite;
     margin-left: 10%;
     margin-bottom: 40px;
 }
@@ -77,9 +81,10 @@ body {
     margin-top: 30%;
     border: solid 5px;
     border-radius: 50px;
-    background-color: antiquewhite;
+    background-color: white;
     font-weight: 600;
     font-family: optima;
+    box-shadow: 0px 15px 10px -15px #111;
 }
 
 .select-button {
@@ -88,7 +93,7 @@ body {
     margin-top: 30%;
     border: solid 5px;
     border-radius: 50px;
-    background-color: antiquewhite;
+    background-color: white;
     font-weight: 600;
     font-family: optima;
 }
@@ -99,19 +104,20 @@ body {
     margin-top: 40%;
     border: solid 5px;
     border-radius: 50px;
-    background-color: antiquewhite;
+    background-color: white;
     font-weight: 600;
     margin-left: 22%;
     font-family: optima;
 }
 
 .information-box {
-    border: solid;
+    border: solid 5px;
     border-radius: 10px;
     padding: 15px;
-    font-size: 50px;
+    font-size: 80px;
     font-family: optima;
     margin-top: 20%;
+    background-color: white;
 }
 
 .input-mc {
@@ -121,12 +127,6 @@ body {
 .label-mc {
     padding: 10px;
     cursor: pointer;
-}
-
-p,
-input {
-    font-size: 1.2em;
-    margin: 10px 0;
 }
 
 input {
