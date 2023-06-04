@@ -43,7 +43,7 @@ body {
 }
 
 .bottom-container {
-    position: fixed;
+    margin-top: 50%;
     bottom: 0;
     width: 80%;
     display: flex;
