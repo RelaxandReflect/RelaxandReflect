@@ -33,6 +33,7 @@ body {
     border-radius: 8px;
     background-color: white;
     box-shadow: 0px 15px 10px -15px #111;
+    margin-bottom: 10%;
 }
 
 .text-p {
@@ -75,7 +76,9 @@ body {
     flex-direction: column;
 }
 
-.multiple-choice-div {}
+.multiple-choice-div {
+    margin-bottom: 10%;
+}
 
 .navigation-button {
     padding: 50px;
