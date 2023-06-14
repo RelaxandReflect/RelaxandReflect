@@ -9,6 +9,12 @@ body {
     font-size: 120px;
 }
 
+.spotify_link {
+    font-size: 50px;
+    margin-top: 20%;
+    margin-left: 25%;
+}
+
 .navbar {
     height: 200px;
     background-color: lightblue;
